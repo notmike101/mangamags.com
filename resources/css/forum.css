@@ -1,0 +1,701 @@
+#forums a:link {
+	color: #026CB1;
+	text-decoration: none;
+}
+
+#forums a:visited {
+	color: #026CB1;
+	text-decoration: none;
+}
+
+#forums a:hover, a:active {
+	color: #000;
+	text-decoration: underline;
+}
+
+#forums #container {
+	width: 95%;
+	background: #fff;
+	border: 1px solid #e4e4e4;
+	color: #000000;
+	margin: auto auto;
+	padding: 20px;
+	text-align: left; /* IE 5 fix */
+}
+
+#forums #content {
+	/* FIX: Make internet explorer wrap correctly */
+	width: auto !important;
+
+}
+
+#forums .menu ul {
+	color: #000000;
+	font-weight: bold;
+	text-align: right;
+	padding: 4px;
+}
+
+#forums .menu ul a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+#forums .menu ul a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+#forums .menu ul a:hover, .menu ul a:active {
+	color: #4874a3;
+	text-decoration: none;
+}
+
+#forums #panel {
+	background: #efefef;
+	color: #000000;
+	font-size: 11px;
+	border: 1px solid #D4D4D4;
+	padding: 8px;
+}
+
+#forums #panel .remember_me input {
+	vertical-align: middle;
+	margin-top: -1px;
+}
+
+#forums table {
+	color: #000000;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 13px;
+}
+
+#forums .tborder {
+	background: #81A2C4;
+	width: 100%;
+	margin: auto auto;
+	border: 1px solid #0F5C8E;
+}
+
+#forums .thead {
+	background: #026CB1 url(images/thead_bg.gif) top left repeat-x;
+	color: #ffffff;
+	padding:5px;
+}
+
+#forums .thead a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#forums .thead a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#forums .thead a:hover, .thead a:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#forums .tcat {
+	background: #ADCBE7;
+	color: #000000;
+	font-size: 12px;
+	padding:5px;
+}
+
+#forums .tcat a:link {
+	color: #000000;
+}
+
+#forums .tcat a:visited {
+	color: #000000;
+}
+
+#forums .tcat a:hover, .tcat a:active {
+	color: #000000;
+}
+
+#forums .trow1 {
+	background: #f5f5f5;
+	padding:5px;
+}
+
+#forums .trow2 {
+	background: #EFEFEF;
+	padding:5px;
+}
+
+#forums .trow_shaded {
+	background: #ffdde0;
+}
+
+#forums .trow_selected td {
+	background: #FFFBD9;
+}
+
+#forums .trow_sep {
+	background: #e5e5e5;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#forums .tfoot {
+	background: #026CB1 url(images/thead_bg.gif) top left repeat-x;
+	color: #ffffff;
+	padding:5px;
+}
+
+#forums .tfoot a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#forums .tfoot a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#forums .tfoot a:hover, .tfoot a:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#forums .bottommenu {
+	background: #efefef;
+	color: #000000;
+	border: 1px solid #4874a3;
+	padding: 10px;
+}
+
+#forums .navigation {
+	color: #000000;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#forums .navigation a:link {
+	text-decoration: none;
+}
+
+#forums .navigation a:visited {
+	text-decoration: none;
+}
+
+#forums .navigation a:hover, .navigation a:active {
+	text-decoration: none;
+}
+
+#forums .navigation .active {
+	color: #000000;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#forums .smalltext {
+	font-size: 11px;
+}
+
+#forums .largetext {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#forums input.textbox {
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #0f5c8e;
+	padding: 1px;
+}
+
+#forums textarea {
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #0f5c8e;
+	padding: 2px;
+	font-family: Verdana, Arial, Sans-Serif;
+	line-height: 1.4;
+	font-size: 13px;
+}
+
+#forums select {
+	background: #ffffff;
+	border: 1px solid #0f5c8e;
+}
+
+#forums .editor {
+	background: #f1f1f1;
+	border: 1px solid #ccc;
+}
+
+#forums .editor_control_bar {
+	background: #fff;
+	border: 1px solid #0f5c8e;
+}
+
+#forums .autocomplete {
+	background: #fff;
+	border: 1px solid #000;
+	color: black;
+}
+
+#forums .autocomplete_selected {
+	background: #adcee7;
+	color: #000;
+}
+
+#forums .popup_menu {
+	background: #ccc;
+	border: 1px solid #000;
+}
+
+#forums .popup_menu .popup_item {
+	background: #fff;
+	color: #000;
+}
+
+#forums .popup_menu .popup_item:hover {
+	background: #C7DBEE;
+	color: #000;
+}
+
+#forums .trow_reputation_positive {
+	background: #ccffcc;
+}
+
+#forums .trow_reputation_negative {
+	background: #ffcccc;
+}
+
+#forums .reputation_positive {
+	color: green;
+}
+
+#forums .reputation_neutral {
+	color: #444;
+}
+
+#forums .reputation_negative {
+	color: red;
+}
+
+#forums .invalid_field {
+	border: 1px solid #f30;
+	color: #f30;
+}
+
+#forums .valid_field {
+	border: 1px solid #0c0;
+}
+
+#forums .validation_error {
+	background: url(images/invalid.gif) no-repeat center left;
+	color: #f30;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 22px;
+}
+
+#forums .validation_success {
+	background: url(images/valid.gif) no-repeat center left;
+	color: #00b200;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 22px;
+}
+
+#forums .validation_loading {
+	background: url(images/spinner.gif) no-repeat center left;
+	color: #555;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 22px;
+}
+
+#forums /* Additional CSS (Master) */
+img {
+	border: none;
+}
+
+#forums .clear {
+	clear: both;
+}
+
+#forums .hidden {
+	display: none;
+	float: none;
+	width: 1%;
+}
+
+#forums .hiddenrow {
+	display: none;
+}
+
+#forums .selectall {
+	background-color: #FFFBD9;
+	font-weight: bold;
+	text-align: center;
+}
+
+#forums .float_left {
+	float: left;
+}
+
+#forums .float_right {
+	float: right;
+}
+
+#forums .menu ul {
+	list-style: none;
+	margin: 0;
+}
+
+#forums .menu li {
+	display: inline;
+	padding-left: 5px;
+}
+
+#forums .menu img {
+	padding-right: 5px;
+	vertical-align: top;
+}
+
+#forums #panel .links {
+	margin: 0;
+	float: right;
+}
+
+#forums .expcolimage {
+	float: right;
+	width: auto;
+	vertical-align: middle;
+	margin-top: 3px;
+}
+
+#forums img.attachment {
+	border: 1px solid #E9E5D7;
+	padding: 2px;
+}
+
+#forums hr {
+	background-color: #000000;
+	color: #000000;
+	height: 1px;
+	border: 0px;
+}
+
+#forums #copyright {
+	font: 11px Verdana, Arial, Sans-Serif;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+#forums #debug {
+	float: right;
+	text-align: right;
+	margin-top: 0;
+}
+
+#forums blockquote {
+	border: 1px solid #ccc;
+	margin: 0;
+	background: #fff;
+	padding: 4px;
+}
+
+#forums blockquote cite {
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	font-style: normal;
+	display: block;
+	margin: 4px 0;
+}
+
+#forums blockquote cite span {
+	float: right;
+	font-weight: normal;
+}
+
+#forums blockquote cite span.highlight {
+	float: none;
+	font-weight: bold;
+	padding-bottom: 0;
+}
+
+#forums .codeblock {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+
+#forums .codeblock .title {
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	margin: 4px 0;
+}
+
+#forums .codeblock code {
+	overflow: auto;
+	height: auto;
+	max-height: 200px;
+	display: block;
+	font-family: Monaco, Consolas, Courier, monospace;
+	font-size: 13px;
+}
+
+#forums .subforumicon {
+	border: 0;
+	vertical-align: middle;
+}
+
+#forums .separator {
+	margin: 5px;
+	padding: 0;
+	height: 0px;
+	font-size: 1px;
+	list-style-type: none;
+}
+
+#forums form {
+	margin: 0;
+	padding: 0;
+}
+
+#forums .popup_menu .popup_item_container {
+	margin: 1px;
+	text-align: left;
+}
+
+#forums .popup_menu .popup_item {
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+#forums .popup_menu a.popup_item:hover {
+	text-decoration: none;
+}
+
+#forums .autocomplete {
+	text-align: left;
+}
+
+#forums .subject_new {
+	font-weight: bold;
+}
+
+#forums .highlight {
+	background: #FFFFCC;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#forums .pm_alert {
+	background: #FFF6BF;
+	border: 1px solid #FFD324;
+	text-align: center;
+	padding: 5px 20px;
+	margin-bottom: 15px;
+	font-size: 11px;
+}
+
+#forums .red_alert {
+	background: #FBE3E4;
+	border: 1px solid #A5161A;
+	color: #A5161A;
+	text-align: center;
+	padding: 5px 20px;
+	margin-bottom: 15px;
+	font-size: 11px;
+}
+
+#forums .high_warning {
+	color: #CC0000;
+}
+
+#forums .moderate_warning {
+	color: #F3611B;
+}
+
+#forums .low_warning {
+	color: #AE5700;
+}
+
+#forums div.error {
+	padding: 5px 10px;
+	border-top: 2px solid #FFD324;
+	border-bottom: 2px solid #FFD324;
+	background: #FFF6BF;
+	font-size: 12px;
+}
+
+#forums div.error p {
+	margin: 0;
+	color: #000;
+	font-weight: normal;
+}
+
+#forums div.error p em {
+	font-style: normal;
+	font-weight: bold;
+	padding-left: 24px;
+	display: block;
+	color: #C00;
+	background: url('images/error.gif') no-repeat 0;
+}
+
+#forums div.error ul {
+	margin-left: 24px;
+}
+
+#forums .online {
+	color: #15A018;
+}
+
+#forums .offline {
+	color: #C7C7C7;
+}
+
+#forums .pagination {
+	font-size: 11px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+#forums .tfoot .pagination, .tcat .pagination {
+	padding-top: 0;
+}
+.pagination .pages {
+	font-weight: bold;
+}
+
+#forums .pagination .pagination_current, .pagination a {
+	padding: 2px 6px;
+	margin-bottom: 3px;
+}
+
+#forums .pagination a {
+	border: 1px solid #81A2C4;
+}
+
+#forums .pagination .pagination_current {
+	background: #F5F5F5;
+	border: 1px solid #81A2C4;
+	font-weight: bold;
+	color: #000;
+}
+
+#forums .pagination a:hover {
+	background: #F5F5F5;
+	text-decoration: none;
+}
+
+#forums .thread_legend, .thread_legend dd {
+	margin: 0;
+	padding: 0;
+}
+
+#forums .thread_legend dd {
+	padding-bottom: 4px;
+	margin-right: 15px;
+}
+
+#forums .thread_legend img {
+	margin-right: 4px;
+	vertical-align: bottom;
+}
+
+#forums .forum_legend, .forum_legend dt, .forum_legend dd {
+	margin: 0;
+	padding: 0;
+}
+
+#forums .forum_legend dd {
+	float: left;
+	margin-right: 10px;
+}
+
+#forums .forum_legend dt {
+	margin-right: 10px;
+	float: left;
+}
+
+#forums .success_message {
+	color: #00b200;
+	font-weight: bold;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+#forums .error_message {
+	color: #C00;
+	font-weight: bold;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+#forums .post_body {
+	padding: 5px;
+}
+
+#forums .post_content {
+	padding: 5px 10px;
+}
+
+#forums .quick_jump {
+	background: url('images/jump.gif') no-repeat 0;
+	width: 13px;
+	height: 13px;
+	padding-left: 13px; /* amount of padding needed for image to fully show */
+	vertical-align: middle;
+	border: none;
+}
+
+#forums .repbox {
+	font-size:16px;
+	font-weight: bold;
+	padding:5px 7px 5px 7px;
+}
+
+#forums ._neutral {
+	background-color:#FAFAFA;
+	color: #999999;
+	border:1px solid #CCCCCC;
+}
+
+#forums ._minus {
+	background-color: #FDD2D1;
+	color: #CB0200;
+	border:1px solid #980201;
+}
+
+#forums ._plus {
+	background-color:#E8FCDC;
+	color: #008800;
+	border:1px solid #008800;
+}
+
+#forums .pagination_breadcrumb {
+	background-color: #f5f5f5;
+	border: 1px solid #fff;
+	outline: 1px solid #ccc;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+#forums .pagination_breadcrumb_link {
+	vertical-align: middle;
+	cursor: pointer;
+}
+		

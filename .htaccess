@@ -1,0 +1,36 @@
+# First letter of all comments provide final function for administration password
+# Change and remove comment on final release
+#
+# finally secure htaccess file
+<Files .htaccess>
+# unallowed to look
+	order allow,deny
+	deny from all
+</Files>
+
+# close connction when looking for directory listing
+Options All -Indexes
+IndexIgnore *
+
+# keep it small
+<ifmodule mod_php4.c>
+	php_value zlib.output_compression 16386
+</ifmodule>
+
+# yea, don't let them see server info
+ServerSignature Off
+
+# output urls
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteRule ^page/([1-9]+)/?$                               home.html/page
+	RewriteRule ^manga/(.+)/?$                                  read/$1
+	RewriteRule ^read/(.+)/chapter-([0-9]+)/([0-9]+)/?$         open/$1/$2/$3
+	RewriteRule ^random/?$                                      randomizer
+	RewriteRule ^author/(.+)/?$                                 sauthor=$1
+	RewriteRule ^genre/(.+)/?$                                  sgenre=$1
+	RewriteRule ^search/(.+)/?$                                 sall=$1
+	RewriteRule ^search/?$                                      sall
+</ifModule>
+
+# uhm, that's the end, not hard.  Feel free to add more.
